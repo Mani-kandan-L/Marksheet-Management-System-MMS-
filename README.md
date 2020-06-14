@@ -1,0 +1,2 @@
+# Marksheet-Management-System-MMS-
+Marksheet Management System(MMS) - This Project named Mark sheet Management System is mainly used to store the Students Information and Marks Details and to find the particular student is eligible for placement. This is about Marks Sheet Management System, which is used to managing students semester marks of college.  The project is developed using Visual Basic 6.0 
