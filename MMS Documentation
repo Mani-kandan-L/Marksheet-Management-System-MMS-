@@ -1,0 +1,613 @@
+CONTENTS
+1. INTRODUCTION
+     1.1. Abstract
+      1.2. Hardware environment
+      1.3. Software environment
+2. ANALYSIS
+     2.1. Feasibility study
+      2.2. Software requirement
+3.  DESIGN
+     3.1. Table design
+4.  TESTING
+     4.1. System testing
+      4.2. Unit testing
+      4.3. Integration testing
+5.  APPENDIX – I
+      5.1. Form design
+      5. 2. Reports
+6.  APPRENDIX – II
+     6.1. Conclusion
+     6.2. Bibliography
+
+1. INTRODUCTION
+1.1. ABSTRACT:-     
+        This Project named Mark sheet Management System is mainly used to store the Students Information and Marks Details and to find the particular student is eligible for placement. 
+	This is about Marks Sheet Management System, which is used to managing students semester marks of college.  The project is developed using Visual Basic 6.0 
+DESCRIPTION OF THE PROJECT:-
+This is a simple project.  This project can be used with in a particular organization.  The valid user can enter to this Application.  Regarding to their user type the pages will be available.  It cannot be accessed by others. 
+	Using this Application The administration can manage the student’s marks in a simple way According to the secured in the University Examination. 
+	This system is very useful in an Elegant and Efficient way which is User Friendly for the Administration as well as the User of the particular Organization.
+MODULES:-
+    • Login Details
+    • Students Details
+    • Marks Details
+    • Subject Details
+    • Department Details
+LOGIN DETAILS:-
+	This page is used to assign the authorized users in the Software. These pages include the User Name, Password. Two persons have a right to access this application, they are Administrator and User.  The Administrator has the rights to enter the student’s details, marks details, subject details and marks details.  The Administrator is to Add, Edit and Delete the records.  This page access permission is only to Administrators. User can view records and reports of the students.
+STUDENTS DETAILS:-
+This page is used to enter the personal details of the student such as Register number, Name, Address, Date of Birth, Contact Number, Mail id, Department, Batch and Regulation.
+MARKS DETAILS:-
+	This page Deals with the Marks details such as Name, Register Number, Date of Birth and Marks of each semester. It also deal with new marks can be entered when the student have changes in marks after revaluation.
+SUBJECTS DETAILS:-
+	This page Deals with the subjects details that is information about subjects of each departments.  It contains Semester Number, Subject Code, Subject Title and Maximum of the Subject etc.
+DEPARTMENT DETAILS:-
+	In Department details the information about the department can be entered.  That is Name of the Department and Batch.
+USER INTERFACE REQUIREMENTS:-
+Customized / User – friendly interface designing, which includes: customized Screen / Menu Designing
+Record Adding
+Record Maintenance (Adding, Modifying and Deleting Records)
+Report Generation.
+
+    	
+        1.2. SOFTWARE ENVIRONMENT:-
+Software is study of programming components of a computer.  Software is a set of programs.  Program are in turn is a set of instruction.  Instructions are in turn a set of statements.  Statements are made up of expressions.  Basic software requirements can be decided based on project selected.  Our project is data storing and retrieving project.  So, the software required is database oriented.  When we come across the word database we should have in mind the following four words,
+    • FRONT END			Visual Basic 6.0
+    • BACK END				Ms Access 7.0
+    • OPERATING SYSTEM		Windows XP
+    • REPORT				Data Report(Reporting Tool)
+1.3 HAREWARE ENVIRONMENT:-
+	Hardware is the physical components of a computer.  The hardware environment is the portability and compatibility given by the hardware to a developer.  Basic hardware requirements are keyboard, which is standard input device.  A mouse, which is also an input device, is used.  Although we have keyboard, we need a mouse, since, we are going to work in Graphical User Interface (GUI).  Monitor, which is standard output device.  A printer is necessary when the end user decides to take a hard copy of Reports.
+    • PROCESSOR		Pentium IV
+    • SPEED			3.00 GHz
+    • RAM				512 MB
+    • HARD DISK		80 GB
+    • FLOPPY DRIVE		1.44 MB
+    • KEYBOARD		Standard Keyboard
+    • MONITOR			Samsung
+2. ANALYSIS
+2.1. FEASIBITITY STUDY:-
+The feasibility study is necessary to determine whether the proposed systems feasible considering the technical, operational and economical factors by having a detailed feasible study the management will have a clear cut view of the proposed system with the benefits and drawbacks.
+    • Technical Feasibility
+    • Economical Feasibility
+    • Operational Feasibility
+TECHNICAL FEASIBILITY:-
+	The proposed system will be implemented with Visual Basic 6.0 and MS-Access.  Since the system being developed is running server Application, the system is easy-to-use for the users.  All the required Hardware and Software are available in the market domain.  Thus the proposed system in technically feasible.
+ECONOMICAL FEASIBILITY:-
+	Since the proposed system is an integral part of the centralized computerization of total organizational transactions, it is worth to purchase the Hardware need.  Thus the proposed system is economically feasible.
+OPERATIONAL FEASIBILITY:-
+	Since the proposed system is easy to use there is not any necessary to train the users to adopt new system.  Any User with a little bit knowledge of computers can handle the system.
+    • There is no resistance from users to the proposed system
+    • The proposed system provides better service to the disciples and management.
+    • The proposed system reduces the work efforts.
+
+Therefore the proposed system is feasible operationally, since the proposed system is feasible in all aspects.  The study is extended to system analysis.
+2.2. SOFTWARE REQUIREMENT:-
+ABOUT THE SOFTWARE
+	Visual Basic is the quickest and easiest way to create powerful applications for Microsoft Operating System.  The Visual Basic Programming system allows creating robust and useful applications that fully make of the graphical user interface.  The Visual Basic Programming is descendent of basic languages its name suggests, is big portion of the programming with Visual Basic is accomplished visually.  This means that during design time, we able to see how our program looks during design.  This is a great advantage over the other programming languages because we are also able to change and experiment with our design until we are satisfied with the colors, sizes, images that are indicated in our program.
+
+	This Visual Basic Language is quiet powerful if we are able to remember a programming, task it can be probably accomplished using Visual Basic.  In Visual Basic the “VISUAL” part refers to the methods used to create the Graphical User Interface (GUI).  Rather than writing numerous line of code to describe the appearance and location of interface elements, we simply drag and drop rebuilt objects and place on the screen.  If we have ever used drawing program such as paint, we already have the most of the skill necessary skill to create in effective user interface.
+	In Visual Basic the “BASIC” part refers to the basic language used by more programmers than any other language in the history of computing.  Visual Basic has evolved from the original BASIC languages and now contains several hundreds of statements, functions and keywords, many of which relate directly to the windows UI.  Beginners can create useful application by learning just a see of the keywords, yet the power of this language allows all the professionals to accomplished anything that can be also be accomplished using any other Windows Programming language..
+
+	The Visual Basic programming language is not unique to Visual Basic programming system.  Applications edition included in Microsoft Access, and many other Windows applications use the language.  The visual programming system, scripts edition Internet programming is a subset of the Visual Basic Language.
+
+	The investment we make learning Visual Basic will carry to these other areas.  Whether our goal is to create a small utility for us or outwork group large enterprise wide systems, or even to distribute application spanning the globe via Internet.  Although it retains much of the user friendly easy to use feeling of the earlier basics, by OT had added an immensely rich and powerful features set with an incredible capability for extension.  It’s now certainly possible to design complies Visual Basic applications in a high structured and rigorous fashion.
+	The characteristics have helped to make world’s best selling programming language.  Visual Basic as implemented lets the developer do almost anything in almost any way.  Particularly with all the third party tools that are others, is tremendous variety of ways to do almost anything.  This means that we can do things in right way or wrong way.  Visual Basic wont stops us from designing the system badly.  Therefore, it is very critical to learn and make habit of using correct programming and design techniques.
+
+Visual Basic code lines and comments:-
+	Normally, we enter Visual Basic on one line, meaning that end of the physical line indicates the end of the statement.  Thus se can think of the lines as a usual implicit end of the statement marker.  This stand in contrast with usage in more highly structured languages.  There is essentially no limit to theoretical length of Visual Basic Statement entered this way on a single line.  However, it is poor coding practice to create statements that don’t fit on one line is either a print out or the code window.
+Uses of Visual Basic:-
+	Data access objects allow us to create database and front-end tools applications for most popular database formats, including Microsoft SQL server and other enterprise-level database.  Active X technologies allow us the functionality provided by the other applications, such as Microsoft Word Processor, Microsoft Excels Spread Sheet, and other Windows application. 
+	We can even automate and objects created using the professional or enterprise edition of Visual Basic.  Internet capabilities make it easy to provide access to documents and applications across the Internet from with in our applications.
+Menu Bar:
+	The visual basic menu base contains the name of the menus you can use in the active window.  You can modify the menu bar using the commands tab of the customize dialog box.
+The buttons in the menu bar can carry the following actions:
+    • Add a new form
+    • Adds a new module
+    • Opens an existing project
+    • Saves the current project
+    • Locks and unlocks the commands 
+    • Display the properties window
+    • Display the object browsers
+    • Display the project explorers
+FORM WINOW:-
+The form window allows you to create the window, dialog box, and controls in your applications.
+OBJECT BROWSER:-
+	The object browser allows us to brows through the various properties, events and methods.
+PROPERTIES WINDOW:-
+	The properties window is docked under the project explorer window.  The properties window exposes the various characteristics of select objects.
+TOOL BOX:-
+	The toolbox contains a set of controls that are used to place on a form at design times there by creating the user interface area.
+The following operations are performed by the controls in the toolbox:
+    • The pointer provides a way to move a resize the controls and forms.
+    • Label display a text that user cannot modify or interact with.
+    • Frame control serves as a visual and functional container for controls.
+    • Check box displays a true/false.
+    • Text box is a control used to display message and enter text.
+    • The option button control that is a part of an option group allows.
+    • The user to select only one option even it displays multiple choices.
+    • Command button carries out the specified action when the user chooses it.
+PROJECT EXPLORER:-
+	Docked on the right side of the screen, just under the tool bar, is the project explorer window.  The project explorer window serves as a quick reference to the various elements of the namely form, classes and modules.  This entire object their makes up the application is packed in a project.
+FORMS:
+	A form is window that contains applications code and other object on it to create the user interface.
+MENU EDITOR:
+	A menu editor can be used to add new commands to the existing menus, create new menus and menu bars, change or delete existing menus and menu bars.
+DATA TYPES:
+	By default visual basic variable are data types.  The variant data type can store numeric, data/time or string data when a variable is declared a DATA.
+	The fundamental data types in visual basic including variant are integer, long, single, currency, byte and Boolean.
+MOUSE EVENTS AND KEYBOARD EVENTS:
+	Visual basic application responds to various mouse events and keyboard events.  The main events are mouse down, mouse up, mouse move, key up, key down and key press etc.
+DATA REPORTS:
+ 	Data report is used to create reports.  Choosing add data report adds data reports to the form project menu.
+
+
+ACTIVEX DATA OBJECT:
+	ADO is designed to be an easy-to-use application-level interface to any OLEDB data provider INCLUDING RELATIONAL AND-NON-RELATIONAL DATABASE
+    • EMAIL
+    • FILE SYSTEMS
+    • TEXT
+    • GRAPHICS.
+COLLECTIONS:
+    • FIELDS
+    • PROPERTIES
+PROPERTIES:
+	Active connection, BOF, cursor type, EOF, lock type.
+CONNECTION OBJECT:
+	A connection object represents an open connection to a data base source.  Record set object represents the enter set of records from a base table or the results go an executed commands, at any time, the record set object only refers to a single record within the set as the record.
+INTRODUCTION TO MS-ACCESS FEATURES:-
+	Microsoft Access appeared out of nowhere at the end of 1992 to rapidly become the database of choice for Windows based database development.  Access is a relational database designed for the modern Windows environment, it does not carry the baggage and pre-windows design history of earlier database systems (such as FoxPro, Microsoft’s other data base system).  
+Access is now in its fifth major incarnation (versions 1.0, 2.0, 95, 97 and now 2000) and just keeps on getting better.
+What’s new about the Database Window?
+The Database window in Microsoft Access 2000 provides a variety of options for viewing and manipulating database objects.
+    • Use the Database window toolbar.  Quickly find commands for creating, opening, or managing database objects.
+    • Use the objects bar view database objects in the Objects bar its vertical orientation makes it easier to use.
+    • Organize database objects into groups Click the Groups bar to view your groups, which can contain shortcuts to database objects of different types.
+    • Use new object shortcuts In the Database window, quickly create a new database object by using a wizard, or open a new database object in design view.
+    • Customize how you select and open objects in the Database window.  If you choose, change the default behavior so that you select a database object by resting the pointer over it, and open an object by single – clicking it.
+    • Select an object by typing its name For example; select the shippers table while viewing the list of table objects by typing sh.
+    	Microsoft Access 2000 provides many new features that make working with data and designing a database even easier.
+    	Use record-level locking A Microsoft Access database now supports record-level locking, in addition to page-level locking, in addition to page-level locking .  You enable the locking with the new database option, Open databases using record level locking (Tools menu, Options command, Advanced Tab).
+   Automatically fix errors caused by renaming fields.  Name Autocorrect automatically corrects common side effects that occur when you rename forms, reports, table, queries, field, text boxes or other controls.  Take advantage of Unicode support use the characters of any language that Unicode supports in your data.  Use Unicode compression to offset the effect of Unicode’s increased storage space requirements.  Take advantage of dual-font support – specify a substitute font that you can use in addition to your default font to properly display all of the characters in your data.  Print relationships print a report of the relationships in your Access database as they appear in the Relationships window.
+	Use Microsoft ActiveX Data Objects (ADO) Use Microsoft ActiveX Data 
+Objects (ADO) to access and manipulate data in a database server through any OLE DB provider.  What’s new about forms and reports Microsoft Access 2000 provides new features to make it faster and easier to create great looking forms and reports.  Distribute reports to users who don’t have Microsoft Access Export Microsoft Access reports to report snapshot (.snp) file format.  You can use snapshot Viewer to view, print, and mail report snapshots.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.1.Table Design:-
+
+           STUDENTS  DETAILS:-
+FIELD NAMES
+DATATYPES
+CONSTRAINTS
+Reg. No.
+Text
+Primary key
+Name
+Text
+Not Null
+Date of Birth
+Text
+Not Null
+Address
+Text
+Not Null
+Contact No.
+Text
+Not Null
+Mail ID
+Text
+Not Null
+Department
+Text
+Not Null
+Batch
+Text
+Not Null
+Regulation 
+Text
+Not Null
+
+           MARKS DETAILS:-
+FIELD NAMES
+DATATYPES
+CONSTRAINTS
+Reg. No.
+Text
+Primary key
+Name
+Text
+Not Null
+Department
+Text
+Not Null
+Batch
+Text
+Not Null
+Regulation
+Text
+Not Null
+Semester No.
+Text
+Not Null
+Subject Code
+Text
+Not Null
+Subject Title
+Text
+Not Null
+Current Sem.
+Text
+Not Null
+Internal Mark
+Text
+Not Null
+External Mark
+Text
+Not Null
+Result
+Text
+Not Null
+
+
+           ARREAR MARK DETAILS:-
+FIELD NAMES
+DATATYPES
+CONSTRAINTS
+Reg. No.
+Text
+Primary key
+Name
+Text
+Not Null
+Department
+Text
+Not Null
+Batch
+Text
+Not Null
+Regulation
+Text
+Not Null
+Semester No.
+Text
+Not Null
+Subject Code
+Text
+Not Null
+Subject Title
+Text
+Not Null
+Current Sem.
+Text
+Not Null
+Internal Mark
+Text
+Not Null
+External Mark
+Text
+Not Null
+Result
+Text
+Not Null
+
+           DEPARTMENT  DETAILS:-
+FIELD NAMES
+DATATYPES
+CONSTRAINTS
+Dept. Name
+Text
+Not Null
+Batch
+Text
+Not Null
+Regulation
+Text
+Not Null
+
+           SUBJECTS DETAILS:-
+FIELD NAMES
+DATATYPES
+CONSTRAINTS
+Semester No.
+Text
+Not Null
+Subject Code
+Text
+Not Null
+Subject Title
+Text
+Not Null
+Department
+Text
+Not Null
+Max. Mark
+Text
+Not Null
+Regulation
+Text
+Not Null
+                                                                 
+4. TESTING
+4.1.System Testing:-
+	Testing is the major process involved in software quality assurance.  Here test data is prepared and is used to test the modules individually.  System testing makes sure that all components of the system function properly as a unit by actually forcing the system to fail.
+            The test causes should be planed before testing begins.  Then as the testing progresses, testing shifts focus in an attempt to find errors in integrated clusters of modules and in the entire system.  The philosophy behind testing is to find errors.  Actually testing is the state of implementation that is aimed at ensuring that the system works accurately and efficiently before implementation.
+            During the requirement analysis and design, the output is a document that is usually textual and non-executable.  After the coding phase, computer programs are available that can be executed for testing purpose.  This implies that testing not only has to uncover errors introduced during coding, but also errors introduced during the previous phases.  Consequently, different levels of testing are employed         
+               The starting point of the testing is the unit testing.  In this a module is separately tested and is often performed by the coder himself simultaneously with the coding of the module.  The purpose is to exercise the different parts of the module code to detect the coding errors.  After this the modules are gradually integrated into subsystems which are then integrated themselves to eventually from the entire system.  During the integration of modules, integration testing is performed.  The goal of this testing is to detect design errors, while focusing on testing the interconnection between the modules.
+           After the system is put together, system testing is performed.  Here the system is tested against the system requirements to see if all the requirements are met and the system performs as specified by the requirements.  Finally acceptance testing is performed to demonstrate to the client, on the real life data of the client, the operation of the system.
+4.2.Unit Testing:-
+                The individual modules are tested for their proper functioning and are found to be satisfactory.  It is the process of taking the program module and run it isolated from the rest of the software product by using prepared input and comparing the actual results predicted by the specification and the design of the module.
+                Each of the modules of the design application has been tested using the test data independently.  Each of these modules works correctly.  The errors are eliminated.  After unit testing, integrated testing is conducted.
+4.3.Integration Testing:-
+	Integrity testing is simply making sure that the pages you have just put together work properly that they display without errors and that all the links point to real locations.  This type of testing does not say anything about whether your pages are useful or whether people can use them just that they are technically correct.  The following are the three steps to integrity testing.
+    •  Tested the look of the pages in multiple browsers.
+    •  Made sure that the links works properly.
+
+
+
+
+
+
+
+    5. APPENDIX- I
+        5.1. Form Design:-
+
+
+ Starting Form
+
+
+
+
+
+
+
+
+
+
+Login Form
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+Password Changing Form
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+Loading Form
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+MDI Form
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+Students Details
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+Marks Entry Form
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+Revaluation Mark Entry Form
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+Departments Details
+
+
+
+
+
+
+
+
+
+
+
+
+Subjects Details
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+View Record Form
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+           
+5.2.Reports             
+
+	
+
+
+
+Report 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Report 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+Report 3
+
+
+
+
+
+
+
+
+
+
+
+6.  APPRENDIX – II
+
+
+6.1.  Conclusion:-
+
+               The aim of the project is to automate the Review process involved in the software project and to overcome their difficulties by providing all the latest information. This project is developed to achieve the desire goals of the users.
+             The software is tested with real data and reports generated are accurate and error free. The system is portable and flexible for future developments. It gives user-friendly screens to enter data and enquire database.
+              This project is tested on various browsers in order to check the consistency and reliability.  This project application has a great impact on the people who want to gather latest information.  Thus this project is very useful and more user friendly to the users.
+              By approaching this way it is helpful for the software organizations to achieve the CMMI (Capability Maturity Model Integration) certification.  It will also reduce the time delay and increase the performance of the employees in the software organizations and also helpful in fastening the activities in the organization.
+FUTURE ENHANCEMENTS:-
+	The project can further be improved, as it is flexible to expand by using the VB 6.0 and MS-ACCESS.  This project is developed under special care considering the user requirements.  In spite of good performance, as per quote, “A Software programmer never becomes satisfied with what he has developed” the system may be improved more.  Still there is a lot to enhance this project.
+
+
+
+
+6.1. Bibliography :-
+
+VB 6.0:-
+
+AUTHOR       : Gary Cornell
+
+BOOK NAME: Visual Basic 6 from the Ground up
+                             Tata McGaw Hill
+
